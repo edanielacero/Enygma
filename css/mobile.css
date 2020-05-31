@@ -1,0 +1,14 @@
+@media(max-width:932px){
+
+    .mainSection{
+        display: inherit;
+    }
+    .cursosDestacadosCuadros{
+        display: inherit;
+        height: auto;
+    }
+    .cursoDestacado{
+        margin-top:auto ;
+    }
+
+}

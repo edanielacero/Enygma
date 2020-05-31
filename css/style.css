@@ -1,0 +1,121 @@
+/*---------variables----------*/
+:root{
+    /*Colors*/
+    --darkblue--color:#020301;
+    --white--color:white;
+    --mywhite--color:#f3f5f9;
+    --gold--color:#b5a197;
+    --darkGold--color:#7c716c;
+    --skyblue--color:#90adc6;    
+}
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display: flex;
+    background-color:var(--darkblue--color);
+    color:var(--mywhite--color);
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    padding-right:20px;
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color:var(--mywhite--color);
+}
+nav li a:hover{
+    color:var(--gold--color);
+}
+/*-----------------MAIN SECTION--------------*/
+.mainSection{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainSection h1{
+    text-align: left;
+    color:var(--darkblue--color);
+    font-size: 45px;
+}
+.mainSection h2{
+    text-align: left;
+    color:var(--darkblue--color);
+}
+.mainSection a{
+    text-decoration: none;
+    color:var(--darkblue--color);
+}
+.mainSection .mainSectionText a{
+    background-color: var(--gold--color);
+    padding: 10px;
+    color: var(--mywhite--color);
+    border-radius: 3px;
+}
+.mainSection .mainSectionText a:hover{
+    background-color:var(--darkGold--color);
+}
+/*----------------CURSOS DESTACADOS----------*/
+.cursosDestacados{
+    background-color: var(--mywhite--color);
+    padding: 8%;
+}
+.cursosDestacadosTitulo{
+    text-align: center;
+}
+.cursosDestacadosCuadros{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cursoDestacado{
+    background-color:var(--white--color);
+    padding: 15px;
+    padding-bottom: 50px;
+    align-items: baseline;
+    box-shadow: 0 0 1px var(--gold--color);
+}
+.cursoDestacadoImagen{
+    text-align: center;
+}
+.cursoDestacadoTexto{
+    text-align: center;
+}
+.cursosDestacadosButton{
+    padding: 15px;
+    text-decoration: none;
+    color: var(--mywhite--color);
+    background-color:var(--darkblue--color);
+    border-radius: 3px;
+}
+.cursosDestacadosButton:hover{
+    color: var(--darkblue--color);
+    background-color:var(--skyblue--color);
+}
+.finalButton h2{
+    text-align: center;
+    padding: 20px;
+}
+/*-----------FOOTER------------*/
+footer{
+    display: flex;
+    background-color:var(--darkblue--color);
+    color:var(--mywhite--color);
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
