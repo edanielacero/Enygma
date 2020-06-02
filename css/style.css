@@ -58,7 +58,7 @@ nav a:hover{
 nav .NavLogo img{
     width: 1fr;
     height: 50px;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 #login{
@@ -75,6 +75,7 @@ nav .NavLogo img{
 .heroSection{
     /*border: 1px solid red;*/
     padding-top: 0%;
+    height: 650px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -109,16 +110,18 @@ nav .NavLogo img{
 /*----------------CURSOS DESTACADOS----------*/
 .cursosDestacados{
     background-color: var(--mywhite--color);
-    padding: 8%;
+    padding-bottom: 40px;
 }
 .cursosDestacadosTitulo{
     text-align: center;
+    padding-top: 30px;
 }
 .cursosDestacadosCuadros{
-    padding-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin: 40px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    border: 1px solid red;
 }
 .cursoDestacado{
     background-color:var(--white--color);
@@ -147,6 +150,7 @@ nav .NavLogo img{
 .finalButton h2{
     text-align: center;
     padding: 20px;
+    margin: 0px;
 }
 /*-----------FOOTER------------*/
 footer{
