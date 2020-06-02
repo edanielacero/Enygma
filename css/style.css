@@ -72,34 +72,38 @@ nav .NavLogo img{
 }
 
 /*---------------------------------HERO SECTION*/
-.mainSection{
-    padding-right: 5%;
-    padding-left: 5%;
+.heroSection{
+    /*border: 1px solid red;*/
     padding-top: 0%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
-.mainSection h1{
+.heroSectionText{
+    /*border: 1px solid red;*/
+    margin: auto;
+    padding-left: 50px;
+}
+.heroSectionImage{
+    /*border: 1px solid red;*/
+    margin: auto;
+}
+.heroSectionText h1{
     text-align: left;
     color:var(--darkblue--color);
     font-size: 45px;
 }
-.mainSection h2{
+.heroSectionText h2{
     text-align: left;
     color:var(--darkblue--color);
 }
-.mainSection a{
+.heroButton{
     text-decoration: none;
-    color:var(--darkblue--color);
-}
-.mainSection .mainSectionText a{
     background-color: var(--gold--color);
     padding: 10px;
     color: var(--mywhite--color);
     border-radius: 3px;
 }
-.mainSection .mainSectionText a:hover{
+.heroButton:hover{
     background-color:var(--darkGold--color);
 }
 /*----------------CURSOS DESTACADOS----------*/
