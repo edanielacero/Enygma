@@ -121,7 +121,7 @@ nav .NavLogo img{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 .cursoDestacado{
     background-color:var(--white--color);
