@@ -25,37 +25,37 @@ header nav{
     background-color:var(--darkblue--color);
     color: var(--mywhite--color);
 }
-nav div{
+header nav div{
     height: 100%;
     display: flex;
     align-items: center;
 }
-nav ul{
+header nav ul{
     padding: 0px;
     display:inline-flex;
 }
-nav li{
+header nav li{
     list-style: none;
     padding-right: 15px;
 }
-nav .NavOptions{
+header nav .NavOptions{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-nav .NavCredentials {
+header nav .NavCredentials {
     display: flex;
     justify-content:flex-end;
     padding-right:10px;
 }
-nav a{
+header nav a{
     text-decoration: none;
     color:var(--mywhite--color);
 }
-nav a:hover{
+header nav a:hover{
     color:var(--gold--color);
 }
-nav .NavLogo img{
+header nav .NavLogo img{
     width: 1fr;
     height: 50px;
     padding-left: 20px;
@@ -157,8 +157,15 @@ footer{
     display: flex;
     background-color:var(--darkblue--color);
     color:var(--mywhite--color);
-    padding-left: 50px;
-    padding-right: 50px;
     justify-content: space-between;
     align-items: center;
+    bottom:0;
+    width:100%;
+}
+
+footer .authorAndSlogan{
+    padding-left: 20px;
+}
+footer .socialMedia{
+    padding-right: 20px;
 }
